@@ -4,13 +4,21 @@ h1  {
   background: lightcyan;
   font-family: helvetica;
   text-align: center;
-  } 
+  }
 
  h2 {
 	color: darkslategrey;
 	text-align: center;
+    font-size: 50px;
+
 	}
 img {
-	width: 128px; 
+	width: 128px;
 	height:228px;
 	}
+  body {
+    background-color: lightblue;
+      background-image: url("./images/pic.jpg");
+
+
+  }
