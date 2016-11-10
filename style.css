@@ -1,23 +1,53 @@
-h1  {
-  color: slategrey;
-  text-decoration: underline;
-  background: lightcyan;
-  font-family: helvetica;
-  text-align: center;
-  }
 
- h2 {
-	color: darkslategrey;
-	text-align: center;
-    font-size: 50px;
 
-	}
 img {
 	width: 128px;
 	height:228px;
-	}
-  body {
-    background-color: lightblue;
-    
-
+  margin: 40px 0px 0px 0px;
   }
+
+header {
+  text-align: center;
+    background: yellow;
+  background-size: cover;
+  color: white;
+}
+
+ul {
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a {
+  color: pink;
+}
+
+
+body {
+  text-align: center;
+  background: red;
+  color: orange;
+  font-family: helvetica;
+} 
+
+
+
+h1  {
+  color: slategrey;
+  text-decoration: underline;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 70px;
+  }
+
+ h2 {
+  color: darkslategrey;
+  text-align: center;
+    font-size: 50px;
+      }
