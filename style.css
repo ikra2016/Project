@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 img {
@@ -7,30 +8,18 @@ img {
   }
 
 header {
+=======
+h1 {
+  color: #A0522D;
+>>>>>>> origin/master
   text-align: center;
-    background: yellow;
-  background-size: cover;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+    }
+h2 {
   color: white;
-}
-
-ul {
-  padding: 10px;
-  background: black;
-  color: white;
-}
-
-li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
-}
-
-a {
-  color: pink;
-}
-
-
-body {
   text-align: center;
+<<<<<<< HEAD
   color: orange;
   font-family: helvetica;
 	margin: 0 auto;
@@ -84,3 +73,49 @@ h2 {
 .contentmen{
 	margin: 20px;
 }
+=======
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+h2.hello {
+  margin-bottom: 35px;
+  }
+
+header {
+      text-align: center;
+      background-size: cover;
+      color: white;
+    }
+a {
+      color: white;
+      font-family: 'Dancing Script', cursive;
+      font-size: 30px;
+    }
+ul {
+      padding: 10px;
+      background: black;
+    }
+.navigation {
+      display: inline;
+      margin: 50px 0px 0px 0px;  
+      text-align: center;
+    }
+article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+body {
+     margin: 0 auto;
+     background: url(./images/frontpage.jpg) brown;
+     background-repeat: no-repeat;
+    }
+    
+ img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+ 
+>>>>>>> origin/master
