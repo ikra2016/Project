@@ -1,8 +1,8 @@
 
 
 img {
-	width: 128px;
-	height:228px;
+	width: 34%;
+	height:30%;
   margin: 40px 0px 0px 0px;
   }
 
@@ -31,10 +31,12 @@ a {
 
 body {
   text-align: center;
-  background: red;
   color: orange;
   font-family: helvetica;
-} 
+	margin: 0 auto;
+	background: url(./images/frontpage.jpg) brown;
+	background-repeat: no-repeat;
+}
 
 
 
@@ -44,10 +46,41 @@ h1  {
   font-family: helvetica;
   text-align: center;
   font-size: 70px;
-  }
+}
 
- h2 {
+h2 {
   color: darkslategrey;
   text-align: center;
-    font-size: 50px;
-      }
+  font-size: 50px;
+}
+
+.display-header {
+	color:white;
+  font-size:64px;
+  font-style:italic;
+}
+
+.btn-twitter {
+	position: relative;
+	top:200px;
+}
+
+.btn-pinterest {
+	position: relative;
+	top:200px;
+}
+
+.btn-facebook {
+	position: relative;
+	top:200px;
+}
+
+.content {
+  width: 800px;
+  margin: 100px auto 2px;
+	font-size: 25px;
+	color: white;
+}
+.contentmen{
+	margin: 20px;
+}
