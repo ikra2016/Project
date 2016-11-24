@@ -1,37 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Maik Restaurant Menus</title>
-        <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./style.css">
+<head>
+    <title>Maik Restaurant About</title>
+    <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 
-    </head>
+</head>
+
+
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,1);
+  padding: 10px;
+  line-height: 10px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.first{
+  background-image: url("https://image-tf.s3.envato.com/files/136712945/theme-preview/01_preview.__large_preview.jpg");
+}
+.second{
+  background-image: url("http://9hdwallpaper.com/wp-content/uploads/2015/11/Deliciouspizza-image-1024x640-1024x640.jpg");
+}
+.dessert{
+  background-image: url("http://bullcitycrossfit.com/wp-content/uploads/2015/02/Buffalo-Chicken-Wraps-410x273-926x280.jpg");
+}
+</style>
+
+</head>
 
 <body>
-
-<h1>This week's special offer</h1>
-<p>
-These are special menus only on Fridays!
-</p>
-<div class = 'row'>
-    <div class = 'col-sm-4'>
-      <img src='images/burger.jpg'>
-      <p>These burgers are the best and will feel you up for sure. It not every day you get these so make most of it </p>
-    </div>
-
-    <div class = col-sm-4>
-      <img src='images/pizza.jpg'>
-      <p>This large pizza you can enjoy with family and friends on friday night!</p>
-    </div>
-
-    <div class = col-sm-4>
-      <img src='images/sand.png'>
-      <p>This is very special sandwhich which special fries and you dont get every day</p>
-    </div>
-  </div>
-
-
+<h1>Special Offers</h1>
+<div class="first">
+<p>burgers for £2.99<br />
+<small>These burgers are the best and will feel you up for sure. It not every day you get these so make most of it</small></p>
+</div>
+<div class="second">
+<p>pizza for £3.99<br />
+<small>This large pizza you can enjoy with family and friends on friday night!</small></p>
+</div>
+<div class="dessert">
+<p>Wrap of the week for only £4.99<br />
+<small>Delicous wrap rich with sources and will full you up!</small></p>
+</div>
 </body>
-
-</html>

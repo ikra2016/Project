@@ -1,121 +1,143 @@
-<<<<<<< HEAD
 
-
+<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./style.css">
 img {
-	width: 34%;
-	height:30%;
-  margin: 40px 0px 0px 0px;
-  }
 
+	width: 50%;
+
+	height:30%;
+
+  margin: 40px 60px ;
+
+  }
 header {
-=======
-h1 {
-  color: #A0522D;
->>>>>>> origin/master
+
   text-align: center;
-  font-size: 40px;
-  font-family: 'Dancing Script', cursive;
-    }
-h2 {
+
+    background: yellow;
+
+  background-size: cover;
+
   color: white;
-  text-align: center;
-<<<<<<< HEAD
-  color: orange;
-  font-family: helvetica;
-	margin: 0 auto;
-	background: url(./images/frontpage.jpg) brown;
-	background-repeat: no-repeat;
+
+}
+ul {
+
+  padding: 10px;
+
+  background: black;
+
+  color: white;
+
+}
+li {
+
+  display: inline;
+
+  padding: 0px 10px 0px 10px;
+
 }
 
+a {
 
+  color: pink;
+
+}
+
+body {
+
+  text-align: center;
+
+  color: orange;
+
+  font-family: helvetica;
+
+	margin: 0 auto;
+
+	background: url(./images/frontpage.jpg) brown;
+
+	background-repeat: no-repeat;
+
+}
 
 h1  {
+
   color: slategrey;
+
   text-decoration: underline;
+
   font-family: helvetica;
+
   text-align: center;
+
   font-size: 70px;
+
 }
 
+
 h2 {
+
   color: darkslategrey;
+
   text-align: center;
+
   font-size: 50px;
+
 }
 
 .display-header {
+
 	color:white;
+
   font-size:64px;
+
   font-style:italic;
+
 }
 
 .btn-twitter {
+
 	position: relative;
+
 	top:200px;
+
 }
 
 .btn-pinterest {
-	position: relative;
-	top:200px;
-}
 
+	position: relative;
+
+	top:200px;
+
+}
 .btn-facebook {
+
 	position: relative;
+
 	top:200px;
-}
 
+}
 .content {
+
   width: 800px;
+
   margin: 100px auto 2px;
+
 	font-size: 25px;
-	color: white;
+
+	color: lightblue;
+
 }
+
 .contentmen{
-	margin: 20px;
+
+	margin: 30px 50px;
 }
-=======
-    font-size: 50px;
-    font-family: 'Dancing Script', cursive;
-  }
+.pic{
 
-h2.hello {
-  margin-bottom: 35px;
-  }
-
-header {
-      text-align: center;
-      background-size: cover;
-      color: white;
-    }
-a {
-      color: white;
-      font-family: 'Dancing Script', cursive;
-      font-size: 30px;
-    }
-ul {
-      padding: 10px;
-      background: black;
-    }
-.navigation {
-      display: inline;
-      margin: 50px 0px 0px 0px;  
-      text-align: center;
-    }
-article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-body {
-     margin: 0 auto;
-     background: url(./images/frontpage.jpg) brown;
-     background-repeat: no-repeat;
-    }
-    
- img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
- 
->>>>>>> origin/master
+margin: 40px 60px ;
+}
+.button{
+	margin-left:100px;
+}
